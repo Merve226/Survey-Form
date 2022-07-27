@@ -1,0 +1,74 @@
+body{
+    width : 100%;
+    height : 100%;
+    margin :0;
+    background-color : #4d0475;
+    color : white;
+    font-family: 'Poppins', sans-serif;
+    font-size : 1rem;
+    
+   
+   }
+   form{
+     width : 60vw;
+     max-width: 500px;
+       min-width: 300px;
+     margin : 0 auto;
+     padding-bottom : 2em;
+     background-color : #46036d
+   
+   }
+   h1 {
+     margin : 1em auto;
+     text-align : center
+   }
+   #description{
+     margin : 1em auto;
+     font-style : italic;
+     text-shadow: 1px 1px 1px rgb(0, 0, 0, 40%);
+     text-align : center;
+     
+   }
+   .form-group{
+     margin: auto 1.25rem auto;
+     padding: 0.15rem;
+   }
+   div {
+     padding : 2rem;
+   }
+   label {
+     display: block;
+       margin: 0.5rem 0
+     
+   }
+   input,
+   textarea,
+   select {
+     margin: 10px 0 0 0;
+       width: 100%;
+     min-height: 2em;
+   }
+   input, textarea {
+     background-color : white;
+     border : 1px solid #450477;
+     color : black
+   }
+   textarea{
+     min-height : 120px;
+     width : 100%
+   }
+   .input-radio, .input-checkbox {
+     width: unset;
+     margin: 0 0.5em 0 0;
+     vertical-align: middle;
+   }
+   button {
+     display : block;
+     width : 100%;
+     padding : 0.75rem;
+     background-color : green;
+     color: inherit;
+     border-radius : 2px;
+     cursor : pointer
+     
+   }
